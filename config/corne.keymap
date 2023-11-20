@@ -114,7 +114,7 @@
         windows_default_layer {
             bindings = <
                 &none      &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Z                 &bm DE_U_UMLAUT U                  &kp I  &bm DE_O_UMLAUT O        &bm BSPC P            &none
-                &none      &bm DE_A_UMLAUT A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp O               &none
+                &none      &bm DE_A_UMLAUT A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp DE_STAR              &none
                 &none      &bm LSHFT Y      &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &bm RSHFT MINUS     &none
                                                        &kp LALT       &kp LCTRL      &kp SPACE      &lt WIN_CODE TAB      &lt WIN_NUM ENTER      &td_multi_windows      
             >;
@@ -140,7 +140,7 @@
 
         windows_function_layer {
             bindings =<
-                &none      &bt BT_CLR      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &none      &none       &none                  &none       &to MAC      &none
+                &none      &bt BT_CLR      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &none      &none       &none                  &none       &to WIN      &none
                 &none      &kp F1          &kp F2            &kp F3            &kp F4            &kp F5            &kp 6      &kp F7      &kp F8                 &kp F9      &kp F10      &none
                 &none      &kp F11         &none             &none             &bootloader       &none             &none      &none       &none                  &none       &kp F12      &none
                                                              &kp LALT          &kp LCTRL         &kp SPACE         &none      &none       &td_multi_windows      
