@@ -109,13 +109,11 @@
 
     keymap {
         compatible = "zmk,keymap";
-
-
         windows_default_layer {
             bindings = <
-                &none      &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Z                 &bm DE_U_UMLAUT U                  &kp I  &lt DE_O_UMLAUT O        &kp P            &none
-                &none      &lt DE_A_UMLAUT A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp DE_STAR              &none
-                &none      &lt LSHFT Y      &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &bm RSHFT MINUS     &none
+                &none      &kp Q            &kp W      &kp E          &kp R         &kp T               &kp Z                 &bm DE_U_UMLAUT U                  &kp I  &bm DE_O_UMLAUT O        &kp P            &none
+                &none      &bm DE_A_UMLAUT A            &kp S      &kp D          &kp F         &kp G               &kp H                 &kp J                  &kp K              &kp L        &kp DE_STAR              &none
+                &none      &bm LSHFT Y      &kp X      &kp C          &kp V         &kp B               &kp N                 &kp M                  &kp COMMA          &kp DOT      &bm RSHFT MINUS     &none
                                                        &kp LALT       &kp LCTRL      &kp SPACE      &lt WIN_CODE TAB      &lt WIN_NUM ENTER      &kp BSPC     
             >;
         };
